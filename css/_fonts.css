@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Clash Display", sans-serif;
+    src: url(../fonts/ClashDisplay-Regular.woff2) format("woff2");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "ClashDisplay-Medium", sans-serif;
+    src: url(../fonts/ClashDisplay-Medium.woff2) format("woff2");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Satoshi", sans-serif;
+    src: url(../fonts/Satoshi-Regular.woff) format("woff2");
+    font-style: normal;
+    font-weight: 400;
+}
