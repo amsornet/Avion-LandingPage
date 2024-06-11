@@ -7,3 +7,8 @@
 .products__item {
     grid-column: span 3;
 }
+
+
+.products__item_big {
+    grid-column: span 6;
+}
