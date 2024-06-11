@@ -17,9 +17,11 @@
 }
 
 .hero__image {
+    display: block;
     flex-shrink: 0;
     height: 100%;
     object-fit: cover;
+
 }
 
 .hero__title {

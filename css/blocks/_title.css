@@ -16,12 +16,18 @@
 
 }
 
+.title_mb-large {
+    margin-bottom: 50px;
+
+}
+
+.title_mb-small {
+    margin-bottom: 32px;
+
+}
+
 .title_centered {
     text-align: center;
 
 }
 
-.title_mb-large {
-    margin-bottom: 50px;
-
-}
