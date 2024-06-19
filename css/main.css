@@ -23,6 +23,10 @@
 @import url("blocks/_about.css");
 @import url("blocks/_footer.css");
 
+/*about.html*/
+
+@import url("blocks/_notice.css");
+
 
 
 
