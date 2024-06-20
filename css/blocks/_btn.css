@@ -30,6 +30,13 @@
 
 }
 
+
+.btn_theme-white {
+    color: var(--dark-primary);
+    background: var(--white);
+
+}
+
 .btn_theme-darker {
     color: var(--white);
     background: var(--dark-primary);
