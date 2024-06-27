@@ -1,10 +1,10 @@
-/*global*/
+/* global */
 @import url("_normalize.css");
 @import url("_fonts.css");
 @import url("_variables.css");
 @import url("_settings.css");
 
-/*blocks*/
+/* blocks */
 
 @import url("blocks/_btn.css");
 @import url("blocks/_centered.css");
@@ -23,18 +23,21 @@
 @import url("blocks/_about.css");
 @import url("blocks/_footer.css");
 
-/*about.html*/
+/* about.html */
 
 @import url("blocks/_notice.css");
 @import url("blocks/_about-hero.css");
 @import url("blocks/_brand-info.css");
 
-/* catalog.html*/
+/* catalog.html */
 
 @import url("blocks/_inner-hero.css");
 @import url("blocks/_catalog.css");
 @import url("blocks/_filters.css");
 @import url("blocks/_custom-checkbox.css");
+
+/* product.html */
+@import url("blocks/_product-info.css");
 
 
 
