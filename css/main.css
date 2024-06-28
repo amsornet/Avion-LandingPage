@@ -6,6 +6,7 @@
 
 /* blocks */
 
+@import url("blocks/_stepper.css");
 @import url("blocks/_btn.css");
 @import url("blocks/_centered.css");
 @import url("blocks/_grid.css");
