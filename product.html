@@ -137,22 +137,99 @@
                 </div>
               </dl>
             </div>
+
             <div class="product-info__item">
               <h2 class="product-info__subtitle">Quantity</h2>
               <div class="stepper">
-                <button class="btn-reset stepper__btn stepper__btn_minus" aria-label="decrease quantity">-</button>
+                <button class="btn-reset stepper__btn stepper__btn_minus stepper__btn_disabled" aria-label="decrease quantity">-</button>
                 
                 <label>
-                  <input type="number" min="1" class="stepper__input" />
+                  <input type="number" min="1" max='999' value="1" class="stepper__input" />
                 </label>
                 
                 <button class="btn-reset stepper__btn stepper__btn_plus" aria-label="increase quantity">+</button>
               </div>
           </div>
+
+            <div class="product-info__buttons">
+              <button class=" btn-reset btn btn btn_theme-darker">Add to cart</button>
+              <button class=" btn-reset btn btn_theme-white">Save to favorites</button>
+            </div>
+
         </div>
         </div>
       
     </section>
+
+    <section class="product-info">
+      <div class="container">
+        <div class="product-info__content">
+          <div class="product-info__image">
+            <img
+                src="./images/product-info/01.png"
+                srcset="./images/product-info/01_x2.png 2x"
+                alt="The Dandy Chair"
+                width="607"
+                height="661"
+                aria-hidden="true"
+                loading="lazy">
+          </div>
+          <div class="product-info__text">
+            <div class="product-info__top">
+              <h1 class="product-info__title">The Dandy Chair</h1>
+              <div class="product-info__price">&#8364;250</div>
+            </div>
+
+            <div class="product-info__item">
+              <h2 class="product-info__subtitle">Product description</h2>
+              <p class="product-info__description">
+                A&nbsp;timeless design, with premium materials features as&nbsp;one of&nbsp;our most popular and iconic pieces. The dandy chair is&nbsp;perfect for any stylish living space with beech legs and lambskin leather upholstery.
+              </p>
+            </div>
+
+            <div class="product-info__item">
+              <h2 class="product-info__subtitle">Dimensions</h2>
+              <dl class="product-info__chars">
+                <div class="product-info__chars-item">
+                  <dt class="product-info__chars-caption">Height</dt>
+                  <dd class="product-info__chars-text">110cm</dd>
+                </div>
+
+                <div class="product-info__chars-item">
+                  <dt class="product-info__chars-caption">Width</dt>
+                  <dd class="product-info__chars-text">75cm</dd>
+                </div>
+
+                <div class="product-info__chars-item">
+                  <dt class="product-info__chars-caption">Depth</dt>
+                  <dd class="product-info__chars-text">50cm</dd>
+                </div>
+              </dl>
+            </div>
+
+            <div class="product-info__item">
+              <h2 class="product-info__subtitle">Quantity</h2>
+              <div class="stepper">
+                <button class="btn-reset stepper__btn stepper__btn_minus stepper__btn_disabled" aria-label="decrease quantity">-</button>
+
+                <label>
+                  <input type="number" min="1" max='999' value="1" class="stepper__input" />
+                </label>
+
+                <button class="btn-reset stepper__btn stepper__btn_plus" aria-label="increase quantity">+</button>
+              </div>
+            </div>
+
+            <div class="product-info__buttons">
+              <button class=" btn-reset btn btn btn_theme-darker">Add to cart</button>
+              <button class=" btn-reset btn btn_theme-white">Save to favorites</button>
+            </div>
+
+          </div>
+        </div>
+
+    </section>
+
     <section class="products">
       
       <div class="container">
