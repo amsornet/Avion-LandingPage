@@ -29,15 +29,15 @@
 .stepper__input {
     flex-grow: 1;
     width: calc(100%);
-
-
     text-align: center;
-
-
     font-family: inherit;
-
     font-weight: 400;
     font-size: 16px;
     color: var(--dark-primary);
     border: none;
+    background-color: inherit;
+}
+
+.stepper_cart {
+    background-color: var(--light-grey);
 }
