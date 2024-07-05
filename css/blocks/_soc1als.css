@@ -7,4 +7,36 @@
 .soc1als__link {
     display: flex;
     align-items: center;
+    color: var(--white);
+    transition: var(--main-transition);
 }
+
+.soc1als__link svg {
+    fill: currentColor;
+
+}
+
+
+.footer__link:focus {
+    outline: none;
+}
+
+.footer__link:focus-visible {
+    outline: 2px dashed var(--white);
+    outline-offset: var(--outline-offset);
+
+}
+
+@media (any-hover:hover) {
+    .footer__link:hover {
+        color: var(--primary);
+
+    }
+
+}
+
+.footer__link:active {
+    color: var(--border-dark);
+
+}
+
