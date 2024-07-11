@@ -13,30 +13,26 @@
 
 .soc1als__link svg {
     fill: currentColor;
-
 }
 
 
-.soc1als__link :focus {
+.soc1als__link:focus {
     outline: none;
 }
 
-.soc1als__link :focus-visible {
+.soc1als__link:focus-visible {
     outline: 2px dashed var(--white);
     outline-offset: var(--outline-offset);
-
 }
 
 @media (any-hover:hover) {
-    .soc1als__link :hover {
+    .soc1als__link:hover {
         color: var(--primary);
-
     }
 
 }
 
-.soc1als__link :active {
+.soc1als__link:active {
     color: var(--border-dark);
-
 }
 
