@@ -1,5 +1,19 @@
 const noticeEl = document.querySelector('.notice');
 const stepperEls = document.querySelectorAll('.stepper');
+const burgerEl = document.querySelector('.burger');
+
+if (burgerEl) {
+    const body = document.body;
+    const menuEl = document.querySelector(".header__bottom");
+
+    burgerEl.addEventListener('click', () => {
+        burgerEl.classList.toggle('burger_active');
+        menuEl.classList.toggle('header__bottom_active');
+        body.classList.toggle('stop-scroll');
+        });
+        
+
+} 
 
 if (noticeEl) {
     const noticeCloseEl = noticeEl.querySelector('.notice__close');

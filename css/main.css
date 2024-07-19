@@ -5,7 +5,7 @@
 @import url("_settings.css");
 
 /* blocks */
-
+@import url("blocks/_burger.css");
 @import url("blocks/_stepper.css");
 @import url("blocks/_btn.css");
 @import url("blocks/_centered.css");
@@ -46,9 +46,3 @@
 
 /* media */
 @import url("blocks/_media.css");
-
-
-
-
-
-
