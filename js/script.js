@@ -1,6 +1,21 @@
 const noticeEl = document.querySelector('.notice');
 const stepperEls = document.querySelectorAll('.stepper');
 const burgerEl = document.querySelector('.burger');
+const headerListEl = document.querySelector('.header__list');
+
+if (headerListEl) {
+    new TransferElements(
+        {
+            sourceElement: headerListEl,
+            breakpoints: {
+                767.98: {
+                    targetElement: document.querySelector('.header__bottom'),
+                    targetPosition: 1
+                }
+            }
+        }
+    );
+}
 
 if (burgerEl) {
     const body = document.body;

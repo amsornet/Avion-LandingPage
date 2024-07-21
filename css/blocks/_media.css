@@ -114,4 +114,125 @@
 }
 
 @media (max-width: 767.98px) {
+  section, footer {
+    display: none;
+  }
+
+  :root {
+    --gap: 16px;
+  }
+
+  .hero {
+    display: block;
+
+  }
+
+  .benefits {
+    display: block;
+  }
+
+  .products {
+    display: block;
+  }
+
+  .hero {
+    padding: 0;
+  }
+
+
+  .header__list {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 55px;
+    row-gap: 44px;
+    padding-top: 24px;
+  }
+
+  .header__top {
+    padding: 25px 0;
+  }
+
+  .hero .container {
+    padding: 0;
+  }
+
+  .hero__text {
+    padding: 40px 24px 32px;
+  }
+
+  .hero__link {
+    margin-top: 32px;
+    order: 3;
+  }
+
+  .hero__title {
+    margin-bottom: 80px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .benefits {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  .title {
+    max-width: 274px;
+  }
+
+  .title_small {
+    font-size: 20px;
+    line-height: 140%;
+  }
+
+  .title_centered {
+    text-align: left;
+  }
+
+  .title_mb-large {
+    margin-bottom: 36px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .benefits__item {
+    grid-column: span 4;
+  }
+
+  .benefits__subtitle {
+    font-size: 16px;
+
+  }
+
+  .benefits__description {
+    font-size: 14px;
+  }
+
+  .products {
+    padding-top: 48px;
+  }
+
+
+  .title_large {
+    font-size: 20px;
+  }
+
+  .title_mb-small {
+    margin-bottom: 20px;
+  }
+
+  .products__item {
+    grid-column: span 2;
+  }
+
+  .product__image {
+    height: 201px;
+  }
+
+
+
 }
