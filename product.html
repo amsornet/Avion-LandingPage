@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/main.css">
-  <script src="./js/script.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/transfer-elements@1.0.7/dist/transfer-elements.min.js" async defer></script>
+  <script src="./js/script.js" async defer></script>
   <title>Product</title>
 </head>
 
@@ -29,66 +30,140 @@
     <div class="header__top">
       <div class="container header__container header__top-container">
         <a href="/" class="logo">
-          <img src="images/logo-header.svg" alt="Avion Logo">
+          <img src="images/logo-header.svg" alt="Avion Logo" />
         </a>
         <div class="header__detailes">
           <ul class="list-reset header__list">
             <li class="header__item">
-              <a href="#" class="header__link">About us</a>
+              <a href="/" class="header__link">About us</a>
             </li>
             
             <li class="header__item">
-              <a href="#" class="header__link">Contact</a>
+              <a href="/" class="header__link">Contact</a>
             </li>
             
             <li class="header__item">
-              <a href="#" class="header__link">Blog</a>
+              <a href="/" class="header__link">Blog</a>
             </li>
           </ul>
           
           <div class="header__buttons">
-            <button class="btn-reset header__button" aria-label="Search" type="submit">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none">
-                <rect width="16" height="16" fill="white" d="M0 0h16v16H0z" style="mix-blend-mode:multiply"/>
-                <path  d="m14.5 13.793-3.776-3.776a5.509 5.509 0 1 0-.707.707l3.776 3.776.707-.707ZM2 6.5a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0Z"/>
+            <button
+                class="btn-reset header__button"
+                aria-label="Search"
+                type="submit"
+            >
+              <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="none"
+              >
+                <rect
+                    width="16"
+                    height="16"
+                    fill="white"
+                    d="M0 0h16v16H0z"
+                    style="mix-blend-mode: multiply"
+                />
+                <path
+                    d="m14.5 13.793-3.776-3.776a5.509 5.509 0 1 0-.707.707l3.776 3.776.707-.707ZM2 6.5a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0Z"
+                />
               </svg>
             </button>
             
-            <button class="btn-reset header__button" aria-label="Cart" type="submit">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none">
-                <rect  width="16" height="16" fill="white" d="M0 0h16v16H0z" style="mix-blend-mode:multiply"/>
-                <path  d="M5 15a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM12 15a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM14 3.5H2.91L2.5 1.4A.5.5 0 0 0 2 1H0v1h1.59l1.91 9.6a.5.5 0 0 0 .5.4h9v-1H4.41L4 9h9a.5.5 0 0 0 .5-.39l1-4.5a.5.5 0 0 0-.5-.61ZM12.6 8H3.81l-.7-3.5h10.265L12.6 8Z"/>
+            <button
+                class="btn-reset header__button"
+                aria-label="Cart"
+                type="submit"
+            >
+              <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="none"
+              >
+                <rect
+                    width="16"
+                    height="16"
+                    fill="white"
+                    d="M0 0h16v16H0z"
+                    style="mix-blend-mode: multiply"
+                />
+                <path
+                    d="M5 15a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM12 15a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM14 3.5H2.91L2.5 1.4A.5.5 0 0 0 2 1H0v1h1.59l1.91 9.6a.5.5 0 0 0 .5.4h9v-1H4.41L4 9h9a.5.5 0 0 0 .5-.39l1-4.5a.5.5 0 0 0-.5-.61ZM12.6 8H3.81l-.7-3.5h10.265L12.6 8Z"
+                />
               </svg>
             </button>
             
-            <button class="btn-reset header__button" aria-label="Personal" type="submit">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none">
-                <rect  width="16" height="16" fill="white" d="M0 0h16v16H0z" style="mix-blend-mode:multiply"/>
-                <path  d="M8 4a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5Zm0 4a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Z"/>
-                <path  d="M8 1a7 7 0 1 0 7 7 7.008 7.008 0 0 0-7-7ZM5 13.188V12.5A1.502 1.502 0 0 1 6.5 11h3a1.502 1.502 0 0 1 1.5 1.5v.688a5.949 5.949 0 0 1-6 0Zm6.996-.725A2.5 2.5 0 0 0 9.5 10h-3a2.5 2.5 0 0 0-2.496 2.463 6 6 0 1 1 7.992 0Z"/>
+            <button
+                class="btn-reset header__button"
+                aria-label="Personal"
+                type="submit"
+            >
+              <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="none"
+              >
+                <rect
+                    width="16"
+                    height="16"
+                    fill="white"
+                    d="M0 0h16v16H0z"
+                    style="mix-blend-mode: multiply"
+                />
+                <path
+                    d="M8 4a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5Zm0 4a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Z"
+                />
+                <path
+                    d="M8 1a7 7 0 1 0 7 7 7.008 7.008 0 0 0-7-7ZM5 13.188V12.5A1.502 1.502 0 0 1 6.5 11h3a1.502 1.502 0 0 1 1.5 1.5v.688a5.949 5.949 0 0 1-6 0Zm6.996-.725A2.5 2.5 0 0 0 9.5 10h-3a2.5 2.5 0 0 0-2.496 2.463 6 6 0 1 1 7.992 0Z"
+                />
               </svg>
+            </button>
+            
+            <button class="btn-reset burger">
+              <span class="burger__line"></span>
+              <span class="burger__line"></span>
+              <span class="burger__line"></span>
+              <span class="burger__line"></span>
             </button>
           </div>
         </div>
       </div>
-    
     </div>
     <div class="header__bottom">
       <div class="container header__container header__bottom-container">
         <nav class="nav">
           <ul class="list-reset nav__list">
-            <li class="nav__item"><a href="#" class="nav__link">All products</a></li>
-            <li class="nav__item"><a href="#" class="nav__link">Plant pots</a></li>
-            <li class="nav__item"><a href="#" class="nav__link">Ceramics</a></li>
-            <li class="nav__item"><a href="#" class="nav__link">Tables</a></li>
-            <li class="nav__item"><a href="#" class="nav__link">Chairs</a></li>
-            <li class="nav__item"><a href="#" class="nav__link">Crockery</a></li>
-            <li class="nav__item"><a href="#" class="nav__link">Tableware</a></li>
-            <li class="nav__item"><a href="#" class="nav__link">Cutlery</a></li>
+            <li class="nav__item">
+              <a href="/" class="nav__link">All products</a>
+            </li>
+            <li class="nav__item">
+              <a href="/" class="nav__link">Plant pots</a>
+            </li>
+            <li class="nav__item">
+              <a href="/" class="nav__link">Ceramics</a>
+            </li>
+            <li class="nav__item">
+              <a href="/" class="nav__link">Tables</a>
+            </li>
+            <li class="nav__item">
+              <a href="/" class="nav__link">Chairs</a>
+            </li>
+            <li class="nav__item">
+              <a href="/" class="nav__link">Crockery</a>
+            </li>
+            <li class="nav__item">
+              <a href="/" class="nav__link">Tableware</a>
+            </li>
+            <li class="nav__item">
+              <a href="/" class="nav__link">Cutlery</a>
+            </li>
           </ul>
         </nav>
       </div>
-    
     </div>
   </header>
   <main>
@@ -234,12 +309,12 @@
       
       <div class="container">
         <h2 class="title title_large title_mb-small products__title">You might also love these</h2>
-        <ul class="list-reset products__list grid">
+        <ul class="list-reset products__list products__list_mobile-slider grid">
           <li class="products__item_big">
             <article class="product">
               <div class="product__top">
                 <img
-                    class="product__top"
+                    class="product__image"
                     src="./images/products/05.png"
                     srcset="./images/products/05_2x.png 2x"
                     aria-hidden="true"
@@ -263,7 +338,7 @@
             <article class="product">
               <div class="product__top">
                 <img
-                    class="product__top"
+                    class="product__image"
                     src="./images/products/06.png"
                     srcset="./images/products/06_2x.png 2x"
                     aria-hidden="true"
@@ -287,7 +362,7 @@
             <article class="product">
               <div class="product__top">
                 <img
-                    class="product__top"
+                    class="product__image"
                     src="./images/products/07.png"
                     srcset="./images/products/07_2x.png 2x"
                     aria-hidden="true"
