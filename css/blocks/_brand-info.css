@@ -3,6 +3,10 @@
 
 }
 
+.brand-info__content_visible {
+    display: none;
+}
+
 .brand-info__content {
     display: flex;
     gap: 16px;
