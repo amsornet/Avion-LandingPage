@@ -114,14 +114,17 @@
 }
 
 @media (max-width: 767.98px) {
-  section, footer {
-    display: none;
-  }
+  /*section, footer {*/
+  /*  display: none;*/
+  /*}*/
 
   :root {
+    --container-offset: 24px;
     --gap: 16px;
+
   }
 
+  /*
   .hero {
     display: block;
 
@@ -139,7 +142,15 @@
     display: block;
   }
 
+  .about {
+    display: block;
+  }
+  */
+
+
   /* main css styles */
+
+  /* media hero */
 
   .hero {
     padding: 0;
@@ -149,7 +160,7 @@
   .header__list {
     flex-direction: column;
     align-items: flex-start;
-    padding-left: 55px;
+    padding-left: 65px;
     row-gap: 44px;
     padding-top: 24px;
   }
@@ -178,6 +189,8 @@
   .btn {
     width: 100%;
   }
+
+  /* media benefits */
 
   .benefits {
     padding-top: 48px;
@@ -218,6 +231,8 @@
     font-size: 14px;
   }
 
+  /* media products */
+
   .products {
     padding-top: 48px;
     padding-bottom: 48px;
@@ -257,6 +272,7 @@
     flex-shrink: 0;
   }
 
+  /* media newsletter */
   .newsletter {
     padding: 0;
     background-color: var(--white);
@@ -279,16 +295,83 @@
     text-align: left;
   }
 
+  /* media footer */
+
   .form__input {
-    width: 224px;
+    width: auto;
   }
 
   .form__btn {
-    padding: 16px 31px;
+    padding: 16px 10px;
     width: auto;
+    text-wrap: nowrap;
+  }
+
+  .about__content {
+    flex-direction: column;
+  }
+
+  .about__info, .about__image {
+    width: 100%;
+  }
+
+  .about__info {
+    padding: 48px 24px 38px;
+  }
+
+  .about__title {
+    margin-bottom: 12px;
+  }
+
+  .about__content {
+    text-align: justify;
+  }
+
+  .about__btn {
+    margin-top: 64px;
+  }
+
+  .about__image {
+    width: 100%;
+    height: 358px;
 
   }
 
+  .footer {
+    padding-top: 40px;
+  }
 
+  .footer__top {
+    row-gap: 40px;
+    padding-bottom: 16px;
+  }
+
+  .footer__column {
+    grid-column: span 2;
+  }
+
+  .footer__column_big {
+    grid-column: span 4;
+    margin-top: 40px;
+  }
+
+  .footer__title {
+    margin-bottom: 16px;
+  }
+
+  .footer__form {
+    flex-direction: row;
+    align-items: center;
+    gap: 0;
+  }
+
+  .footer__bottom {
+    justify-content: center;
+    padding: 20px 0;
+  }
+
+  .soc1als {
+    display: none;
+  }
 
 }
