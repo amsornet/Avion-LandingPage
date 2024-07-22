@@ -42,6 +42,16 @@
     background: var(--dark-primary);
 }
 
+
+.btn_with-icon {
+    gap: 12px;
+}
+
+.btn_with-icon svg {
+    transition: transform 0.3s ease-in;
+}
+
+
 .btn:focus {
     outline: none;
 
@@ -110,7 +120,6 @@
     background-color: var(--dark-primary);
 
 }
-
 
 
 

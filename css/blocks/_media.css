@@ -451,13 +451,42 @@
     background-position: 24px 36px;
   }
 
-
-
   .brand-info__content_visible {
     display: flex;
     flex-direction: column;
     margin-top: 64px;
     gap: 24px;
+  }
+
+  /* catalog.html */
+
+  .inner-hero__content {
+    padding-bottom: 32px;
+    justify-content: center;
+    min-height: 146px;
+  }
+
+  .catalog__column, .catalog__wrapper {
+    grid-column: span 4;
+
+  }
+
+  .catalog__mobile-btn {
+    display: inline-flex;
+    margin-bottom: 20px;
+  }
+
+  .catalog__mobile-btn_active svg {
+    transform: rotate(180deg);
+
+  }
+  
+  .filters {
+    display: none;
+  }
+
+  .filters_active {
+    display: flex;
   }
 
 }
