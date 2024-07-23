@@ -25,7 +25,7 @@
     justify-content: center;
 }
 
-.header__detailes {
+.header__details{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,11 +89,14 @@
     transition: var(--main-transition);
 }
 
-.header__button svg path {
-    fill: currentColor;
+.header__button a {
+    display: inline-flex;
+    color: inherit;
 
 }
-
+.header__button svg path {
+    fill: currentColor;
+}
 
 .header__bottom {
     padding: 20px 0;
